@@ -1,0 +1,123 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins" , sans-serif;
+  border: none;
+  outline: none;
+}
+
+body{
+  background-color: rgba(9, 1, 72, 0.938);
+
+}
+.Wrapper{
+  width: 90%;
+  max-width: 25em;
+  background-color:rgb(255, 255, 255);
+  position: absolute;
+  transform:translate(-50%, -50%) ;
+  left: 50%;
+  top:50%;
+  padding:2em;
+  border-radius:.8em;  
+}
+.app-details{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.app-icon{
+  width: 9.73em;
+  margin: auto;
+  margin-bottom: 2em;
+
+
+}
+
+.title-app{
+  font-size: 1.6em;
+  text-transform: capitalize;
+  margin-bottom: 2em;
+  letter-spacing: 3px;
+
+}
+
+label{
+  display: block;
+  font-weight: 600;
+}
+input#amount{
+  font-weight: 400;
+  font-size: 1.2em;
+  display: block;
+  width: 100%;
+  border-bottom: 2px solid  rgb(0, 0, 68) ;
+  color: blueviolet;
+  margin-bottom: 2em;
+  padding: .5em;
+}
+input#amount:focus{
+  color: #9873fe;
+  border-color :#9873fe ;
+}
+.drobdowns{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1em;
+}
+
+select{
+  width: 100%;
+  padding: .6em;
+  font-size: 1em;
+  letter-spacing: 2px;
+  border-radius: .2em;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  background-image: url(arrow.com.png);
+  background-repeat: no-repeat;
+  background-position: right 15px top 50% , center ;
+  background-size: 20px 20px ;
+  background-color:#9873fe ;
+  color: #ffffff;
+}
+
+select option{
+  background-color:#9873fe ;
+  color: #ffffff;
+}
+
+button{
+  font-size: 1em;
+  letter-spacing: 5px;
+  width: 100%;
+  background-color:#9873fe ;
+  color: #ffffff;
+  padding: 1em 0;
+  margin-top: 2em;
+  font-weight: 600;
+  border-radius: .3em;
+  cursor: pointer;
+}
+button:hover{
+  background-color:#8663e6 ;
+  transform: translate3d(-2px, -2px , -10px);
+  transition: all .4s ease;
+
+}
+
+#result{
+  font-size: 1.3em;
+  text-align: center;
+  margin-top: 2em;
+  color: #ffffff;
+  background-color: #000000;
+  padding: .8em 0;
+  border-radius: 5px;
+  letter-spacing: 3px;
+
+}
+
